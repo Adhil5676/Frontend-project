@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHTREE</title>
+    <link rel="stylesheet" href="styles.css">
+<style>
+    body {
+        margin: 0;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 1.6;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #f4f4f4;
+        border-bottom: 2px solid #ddd;
+
+    }
+    header .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    header .logo img {
+        height: 100px;
+        margin-right: 10px;
+    }
+    header nav ul {
+        display: flex;
+        list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    header nav ul li a {
+        text-decoration: none;
+        color: #333;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    header nav ul li a:hover {
+        color: #f7b500;
+    }
+   
+
+    /* About Section */
+    .about {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .about h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .about-grid .box {
+      background: #f4f4f4;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .services{
+        padding: 20px;
+        text-align: center;
+
+    }
+    .services h3{
+        padding: 20px;
+        text-align: center;
+
+    }
+</style>
+
+
+
+
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="techtree_logo-removebg-preview.png" alt="logo">
+            <h1> TECH TREE</h1>
+        </div>
+        
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">0ur works</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <div class="about-grid">
+            <div class="box about-box">
+              <h3>About Tech Tree</h3>
+              <p>At TechTree, we believe in harnessing the power of the sun to create a sustainable future for everyone. As a leading provider of solar panel services, we specialize in designing, installing, and maintaining high-quality solar energy systems tailored to meet the unique needs of our clients. Our mission is to make clean, renewable energy accessible and affordable, empowering homeowners and businesses to reduce their carbon footprint and energy costs.
+            </p>
+    
+               <p>With a team of experienced professionals and a commitment to innovation, we leverage the latest technology and best practices to deliver reliable and efficient solar solutions. Whether you’re looking to switch to solar for the first time or seeking to optimize your existing system, TechTree is here to guide you through every step of the process.
+               </p> 
+                <p>Join us in cultivating a greener tomorrow, one panel at a time. Together, we can shape a sustainable future for our communities and the planet.</p>
+        
+            </div>
+            <div class="box small-box">
+              <h3>Connect With Me</h3>
+              <p>Email: anudarsh.c.r@gmail.com</p>
+              <p>Phone: +91 9946095063</p>
+            </div>
+            <div class="box small-box">
+              <h3>Location Details</h3>
+              <p>Our office location and contact details.</p>
+            </div>
+          </div>
+        </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="header">
+                <h3 >Services</h3>
+                <h2>Explore our services</h2>
+                <p>
+                    We provide high-quality Eletrical and Solar Solutions , Tailored to your energy needs.
+                </p>
+               
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                  <img src="solar-panel.png" alt="solar-panel" />
+                  <h4>Solar pannel installing</h4>
+                  <p>Connect to the grid to sell excess energy.</p>
+      </div> 
+      <div class="service-card">
+        <img src="lightning.png" alt="lightning protection" />
+        <h4>Lightining & surge protection</h4>
+        <p>Make your home safe from Lightining and Eletrical surges.</p>
+      </div>
+      <div class="service-card">
+        <img src="eletrical.png" alt="eletrical troubleshooting" />
+        <h4>Troubleshooting in eletrical systems</h4>
+        <p>having Truobles with your eletrical systems we are here to help you</p>
+      </div>
+      <div class="service-card">
+        <img src="eco-house.png" alt="home ups" />
+        <h4>Home ups systems</h4>
+        <p>never run out of power </p>
+      </div>
+      <div class="service-card">
+        <img src="electrical-circuit.png" alt="eletrical standardisation" />
+        <h4>Eletrical Standerdisation</h4>
+        <p>Standalone system</p>
+      </div>
+      <div class="service-card">
+        <img src="electrical-wiring.png" alt="eletrical standardisation" />
+        <h4>All Type Of Controll Wiring</h4>
+        <p>Standalone system</p>
+      </div>
+        </div>
+        </div>
+        <button>All Services</button> 
+        </section>
+
+    <section id="portfolio">
+        <h2>Our Work</h2>
+        <div class="gallery">
+            <img src="eletrrical work.jpg" alt="Work 1">
+            <img src="freepik__upload__29002.jpeg" alt="Work 2">
+            <img src="lightning-dark-sky-buildings-city-night.jpg" alt="Work 3">
+        </div>
+    </section>
+
+    <section id="cta">
+        <h2>Ready to Work with Us?</h2>
+        <p>Contact us today and let's create something amazing together.</p>
+        <button>Get in Touch</button>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: anudarsh.c.r@gmail.com</p>
+        <p>Phone: +91 9946095063</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tech Tree.in. All rights reserved.</p>
+        <p>Developed by ADHIL</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
