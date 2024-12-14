@@ -18,7 +18,7 @@ header {
    justify-content: space-between;
    padding: 20px;
    height: 100vh;
-   background: url('images/darksolarheaderimage.jpg');
+   background: url('images/solar\ pannel\ middle.jpg');
    background-size: cover;
    height: 100vh;
    width: 100%;
@@ -29,8 +29,8 @@ header {
 }
 
 .logo-container {
-  background-color: rgba(50, 30, 20, 0.8); 
-  padding: 80px 100px;
+  background-color: rgba(14, 53, 81, 0.8); 
+  padding: 70px 70px;
   border-radius: 8px;
   text-align: center;
   text-shadow: 0 2px 4px #000000;
@@ -81,6 +81,7 @@ section {
 }
 
 section h2 {
+  text-align: center;
     color: #bdd462;
 }
 section h3{
@@ -101,6 +102,7 @@ section h3{
 }
 
 #services {
+  
   text-align: center;
   margin-top: 10px;
 }
@@ -205,6 +207,7 @@ section.visible {
     transform: translateY(0);
 }
 button {
+  padding-top: 20px;
     background-color: #0073e6;
     color: #fff;
     border: none;
@@ -215,7 +218,7 @@ button {
 }
 
 button:hover {
-    background-color: #e0f19c;
+    background-color: #c8f9f1;
     transform: scale(1.1);
 }
 
@@ -234,6 +237,7 @@ html {
     scroll-behavior: smooth;
 }
 .gallery img {
+  height: 300px;
     width: 30%;
     margin: 10px;
     border: 1px solid #ddd;
@@ -256,8 +260,8 @@ html {
 .about {
     padding: 40px 20px;
     text-align: center;
-    background: rgb(75,53,55);
-background: linear-gradient(90deg, rgba(75,53,55,1) 52%, rgba(132,105,106,1) 100%);
+    background: rgb(7, 6, 6);
+background: linear-gradient(45deg, #ebf4f5, #b5c6e0);
    
     padding: 30px;
     border-radius: 20px;
