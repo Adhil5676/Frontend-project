@@ -34,11 +34,9 @@
       border-radius: 10px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
-    .services{
-        padding: 20px;
-        text-align: center;
+   
 
-    }
+    
     .services h3{
         padding: 20px;
         text-align: center;
@@ -62,7 +60,7 @@
             <a href="#about">About Us</a>
             <a href="#services">Services</a>
             <a href="#portfolio">0ur works</a>
-            <a href="#contact">Contact Us</a>
+            <a href="#cta">Contact Us</a>
         </nav>
     </header>
 
@@ -136,9 +134,11 @@
       </div>
         </div>
         </div>
+        <div class="servbutton">
         <button onclick="location.href='AllServices.html';">  All Services</button> 
-        </section>
-
+      </div>
+      </section>
+         
     <section id="portfolio">
         <h2>Our Work</h2>
         <div class="gallery">
@@ -154,27 +154,51 @@
     <section id="cta">
         <h2>Ready to Work with Us?</h2>
         <p>Contact us today and let's create something amazing together.</p>
-        <button>Get in Touch</button>
+        <button onclick="location.href='contactus.html';">Get in Touch</button>
     </section>
+<section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: anudarsh.c.r@gmail.com</p>
-        <p>Phone: +91 9946095063</p>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message"></textarea>
-            <button type="submit" >Send Message</button>
-          <button href="mailto:adhilcruzz11223@gmail.com">Send Mail</button>
-        </form>
-    </section>
-
+  
+</section>
+   
     <footer>
-        <p>&copy; 2024 Tech Tree.in. All rights reserved.</p>
-        <p>Developed by ADHIL</p>
-        <p>In progress</p>
-    </footer>
+      <div class="container">
+          <div class="logo">Tech Tree</div>
+          <ul class="links">
+            <nav>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#cta">Contact</a></li>
+              <li><a href="#copyright">Privacy Policy</a></li>
+            </nav>
+          </ul>
+          <div class="socials">
+              <a href="https://www.facebook.com/" title="Facebook">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="skyblue">
+                  <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .732.593 1.324 1.325 1.324h11.49v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.657-4.788 1.325 0 2.464.099 2.797.143v3.243l-1.918.001c-1.504 0-1.794.715-1.794 1.763v2.309h3.587l-.467 3.622h-3.12v9.293h6.116c.732 0 1.325-.592 1.325-1.324v-21.35c0-.733-.593-1.326-1.325-1.326z"/>
+              </svg>
+              </a>
+              <a href="https://www.twitter.com/" title="Twitter">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="blue">
+                  <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.723-.951.564-2.005.974-3.127 1.195-.897-.955-2.178-1.555-3.594-1.555-2.719 0-4.924 2.205-4.924 4.924 0 .386.044.763.127 1.125-4.092-.205-7.72-2.165-10.148-5.144-.424.729-.666 1.577-.666 2.476 0 1.708.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.062c0 2.388 1.698 4.384 3.953 4.838-.413.112-.849.171-1.296.171-.317 0-.626-.03-.928-.086.627 1.956 2.444 3.381 4.6 3.42-1.683 1.319-3.808 2.105-6.115 2.105-.397 0-.788-.023-1.175-.069 2.179 1.396 4.768 2.211 7.548 2 .355 0 14.707-11.793 14.707-14.707 0-.224-.005-.447-.015-.67.997-.721 1.865-1.623 2.554-2.651z"/>
+                </svg>
+              </a>
+              
+              <a href="https://www.instagram.com/" title="Instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="pink">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.849.07 1.366.062 2.633.313 3.608 1.288.975.975 1.226 2.242 1.288 3.608.058 1.265.07 1.645.07 4.849s-.012 3.584-.07 4.849c-.062 1.366-.313 2.633-1.288 3.608-.975.975-2.242 1.226-3.608 1.288-1.265.058-1.645.07-4.849.07s-3.584-.012-4.849-.07c-1.366-.062-2.633-.313-3.608-1.288-.975-.975-1.226-2.242-1.288-3.608-.058-1.265-.07-1.645-.07-4.849s.012-3.584.07-4.849c.062-1.366.313-2.633 1.288-3.608.975-.975 2.242-1.226 3.608-1.288 1.265-.058 1.645-.07 4.849-.07zm0-2.163c-3.259 0-3.667.013-4.947.072-1.62.073-3.064.414-4.222 1.572s-1.499 2.602-1.572 4.222c-.059 1.28-.072 1.688-.072 4.947s.013 3.667.072 4.947c.073 1.62.414 3.064 1.572 4.222s2.602 1.499 4.222 1.572c1.28.059 1.688.072 4.947.072s3.667-.013 4.947-.072c1.62-.073 3.064-.414 4.222-1.572s1.499-2.602 1.572-4.222c.059-1.28.072-1.688.072-4.947s-.013-3.667-.072-4.947c-.073-1.62-.414-3.064-1.572-4.222s-2.602-1.499-4.222-1.572c-1.28-.059-1.688-.072-4.947-.072zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.327c-2.297 0-4.164-1.867-4.164-4.164s1.867-4.164 4.164-4.164 4.164 1.867 4.164 4.164-1.867 4.164-4.164 4.164zm6.406-11.845c-.796 0-1.441.645-1.441 1.441s.645 1.441 1.441 1.441 1.441-.645 1.441-1.441-.645-1.441-1.441-1.441z"/>
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/" title="LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="white">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11.75 20h-3v-11.25h3v11.25zm-1.5-12.875c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.25 12.875h-3v-5.5c0-1.346-.026-3.078-1.875-3.078-1.875 0-2.162 1.464-2.162 2.975v5.603h-3v-11.25h2.875v1.531h.041c.401-.758 1.381-1.555 2.845-1.555 3.046 0 3.625 2.005 3.625 4.613v6.661z"/>
+                </svg>
+              </a>
+                        </div>
+      </div>
+      <div class="copyright">&copy; 2024 TechTree. All rights reserved.<p>developed by adhil</p></div>
+      
+  </footer>
 
     <script src="script.js"></script>
 </body>
